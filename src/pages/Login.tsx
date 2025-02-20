@@ -24,7 +24,10 @@ const Login = () => {
         <div className="w-full max-w-sm space-y-6">
           <div>
             <h2 className="text-xl font-medium text-gray-900 flex items-center gap-2">
-              Welcome Back <span role="img" aria-label="wave">👋</span>
+              Welcome Back{" "}
+              <span role="img" aria-label="wave">
+                👋
+              </span>
             </h2>
             <p className="mt-1 text-sm text-gray-500 leading-tight">
               Share your thoughts, log in to enjoy and explore together shop.
@@ -70,7 +73,10 @@ const Login = () => {
 
           <p className="text-center text-sm text-gray-600">
             Don't you have an account?{" "}
-            <Link to="/register" className="text-purple-600 hover:text-purple-700">
+            <Link
+              to="/register"
+              className="text-purple-600 hover:text-purple-700"
+            >
               Sign Up
             </Link>
           </p>
@@ -79,8 +85,8 @@ const Login = () => {
 
       <div className=" md:block md:w-1/2 p-6">
         <div className="w-full h-full rounded-2xl overflow-hidden">
-          <img 
-            src="/Login.jpg" 
+          <img
+            src="/Login.jpg"
             alt="Sunset through leaves"
             className="w-full h-full object-cover"
           />

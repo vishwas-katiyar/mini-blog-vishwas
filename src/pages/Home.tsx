@@ -146,7 +146,7 @@ const Home = () => {
                       to={`/post/${post.id}`}
                       className="text-indigo-600 font-semibold"
                     >
-                      <img src="icon wrap.png" alt="icon" />
+                      <img src="/icon wrap.png" alt="icon" />
                     </Link>
                   </div>
                   <p className="text-gray-600 mt-2 line-clamp-2">
